@@ -1,0 +1,27 @@
+.box {
+    height: 150px;
+    width: 150px;
+
+}
+.box-1 {
+    background-color: red;
+}
+.box-2 {
+    background-color: blue;
+}
+.box-3 {
+    background-color: green;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-end;
+}
+
+@media (min-width: 768px) {
+    .box-1 {
+        display: none ;
+    }
+}
