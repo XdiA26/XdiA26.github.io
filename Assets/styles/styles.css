@@ -1,0 +1,207 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    color: #333;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+
+}
+
+nav a {
+    margin: 0 30px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: #fbbd08;
+}
+
+/* hero section start */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    position: relative;
+    top: 0;
+
+}
+
+.hero-text {
+    max-width: 50%;
+
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 20px 0;
+    opacity: 50%;
+}
+
+.hero-text .buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px ;
+}
+
+.hero-text .buttons .btn-primary {
+    background-color: #fbbd08;
+    color: #333;
+    transition: 0.3s ease;
+}
+.hero-text .buttons .btn-primary:hover {  
+    background-color: rgba(10, 102, 194);
+    border: none;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.hero-image {
+    position: relative;
+    max-width: 45%;
+    right: 0;
+    top: 0;
+    background-color: #fbbd08;
+    border-radius: 50%;
+}
+
+.hero-image img {
+    position: relative;
+    width: 100%;
+    border-radius: 50%;
+    top: 8px;
+
+}
+
+/* hero section end */
+
+/* project section start */
+
+.project-section {
+    padding: 50px;
+    text-align: center;
+
+}
+.project-section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.project-section form {
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+.project-section form input {
+
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.project-section form textarea{
+    width: 100%;
+    padding: 10px 10px 100px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.project-section button {
+    padding: 10px 20px;
+    background-color: #fbbd08;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px ;
+    margin-left: 550px;
+    
+}
+
+.project-section form button:hover {
+    background-color: rgba(10, 102, 194);
+    border: none;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+
+/* project section start */
+
+
+/* footer */
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #fbbd08;
+    
+}
+
+footer .social-icons a {
+    
+    color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+}
+footer .social-icons a i {
+    width: 30px;
+
+}
+
+footer p {
+    opacity: 50%;
+}
+/* footer / icons */
+
+/* Auto layout */
+
+
